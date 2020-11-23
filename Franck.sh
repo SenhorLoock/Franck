@@ -1,4 +1,6 @@
 
+pkg update && pkg upgrade -y
+
 clear
 echo " [*]Criador:Senhor Loock" | lolcat
 figlet -f mono12 "Franck" | lolcat
@@ -13,7 +15,7 @@ echo " [*]Criador:Senhor Loock" | lolcat
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
-echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [00]Exit" | lolcat
+echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [00]Exit" | lolcat
 read resultado
 
 if [ "$resultado" = "01" ]
@@ -121,6 +123,18 @@ ls
   echo "Digite o comando Para iniciar a Farramenta:Ex: bash teste.sh.." | lolcat
 read comando
 $comando
+fi
+
+if [ "$resultado" = "09" ]
+ then
+  clear
+   cd C4NET
+    cd script
+     python3 client.py
+      clear
+       cd ..
+        cd ..
+     
 fi
 
 if [ "$resultado" = "00" ]
