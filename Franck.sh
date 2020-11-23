@@ -148,7 +148,7 @@ if [ "$resultado" = "10" ]
      if [ "$c4mux" = "01" ]
       then 
        cd C4MUX
-        nano bash.basrc
+        nano bash.bashrc
         
         fi
      if [ "$c4mux" = "02" ]
