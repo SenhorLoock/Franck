@@ -142,18 +142,18 @@ fi
 if [ "$resultado" = "10" ]
  then
  clear
-  figlet -f mono12 "C4MUX" | lolcat
+  figlet -f mono12 "ouija" | lolcat
    echo " [01] editar bash.bashrc    [02] Instalar bash.bashrc" | lolcat
     read c4mux
      if [ "$c4mux" = "01" ]
       then 
-       cd C4MUX
+       cd ouija
         nano bash.bashrc
         
         fi
      if [ "$c4mux" = "02" ]
       then 
-       cd C4MUX
+       cd ouija
         bash install.sh
         cd ..
          bash Franck.sh
