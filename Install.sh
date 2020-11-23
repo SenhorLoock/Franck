@@ -22,7 +22,7 @@ read-s Enter2
 
 
 clear
-figlet -f mono12 "2Etapa" | lolcat
+figlet -f mono12 "3Etapa" | lolcat
 git clone https://github.com/Cesar-Hack-Gray/SocialSploit
 echo " Precione Enter Para Continuar" | lolcat
 read -s Enter3
