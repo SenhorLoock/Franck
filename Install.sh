@@ -34,6 +34,7 @@ cd ..
 clear
 figlet -f mono12 "4Etapa" | lolcat
 git clone https://github.com/Cesar-Hack-Gray/webcam
+cd webcam
 chmod +x *
 ./setup
 cd ..
