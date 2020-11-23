@@ -41,10 +41,21 @@ cd ..
 
 echo "Precione Enter Para Continuar" | lolcat
 read -s Enter4
+clear
+figlet -f mono12 "5Etapa" | lolcat
+pkg install unstable-repo -y 
+pkg install irssi -y
+
+clear
+ figlet -f mono12 "6Etapa"
+ git clone https://githubxXh4x0rXx/C4NET
+ cd C4NET
+ bash install.sh
+ cd ..
 
 clear
 figlet -f mono12 "Pronto" | lolcat
-echo " Precione Enter Para Continuar "
+echo " Precione enter Para Concluir "
 read -s enter
 
 
