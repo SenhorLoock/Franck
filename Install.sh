@@ -12,12 +12,13 @@ cd ..
 clear
 figlet -f mono12 "2Etapa" | lolcat
 
-git clone https://github.com/userx-dev/Phoneinfoga
-echo "Precione Enter Para Continuar" | lolcat
-read-s Enter2
+git clone https://github.com/la-deep-web/Phoneinfoga
 cd Phoneinfoga
 python3 -m pip install -r requirements.txt
 cd ..
+echo "Precione Enter Para Continuar" | lolcat
+read-s Enter2
+
 
 
 clear
@@ -28,22 +29,22 @@ read -s Enter3
 cd SocialSploit 
 
 bash install.sh
-cd..
+cd ..
 
 clear
 figlet -f mono12 "4Etapa" | lolcat
 git clone https://github.com/Cesar-Hack-Gray/webcam
-echo "Precione Enter Para Continuar" | lolcat
-read -s Enter4
 chmod +x *
 ./setup
 cd ..
+
+echo "Precione Enter Para Continuar" | lolcat
+read -s Enter4
 
 clear
 figlet -f mono12 "Pronto" | lolcat
 echo " Precione Enter Para Continuar "
 read -s enter
 
-rm -rf Install.sh
 
 bash Franck.sh
