@@ -1,7 +1,7 @@
 
 clear
 
-figlet -f mono12 "Franc" | lolcat
+figlet -f mono12 "Franck" | lolcat
 date | lolcat
 
 echo "Ola Sou o Franck Fui Criado Para Ajuda a Obter Experiencia                 [*]De Enter Para Continua..." | lolcat
@@ -21,7 +21,16 @@ if [ "$resultado" = "01" ]
    then
      clear
 
-        bash pastangrok.sh
+      figlet -f mono12 "Ngrok" | lolcat
+       echo "Quel Tipo De Host Deseja Abrir?" | lolcat
+        read HOST
+         clear
+         
+          echo "Qual Porta Deseja Abrir:Ex:8080" | lolcat
+           read PORT
+            cd
+             ./ngrok $HOST $PORT
+     
 
 fi
 
@@ -45,7 +54,7 @@ fi
 
 if [ "$resultado" = "04" ]
   then
-cd PhoneInfoga
+cd Phoneinfoga
 figlet -f mono12 "Numero" | lolcat
 echo "Numero Exeplo +55999999999" | lolcat
 read numero
