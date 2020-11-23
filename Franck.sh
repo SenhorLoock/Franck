@@ -8,8 +8,7 @@ echo "Ola Sou o Franck Fui Criado Para Ajuda a Obter Experiencia                
     read -s nome
      clear
 
-echo "Seja Bem Vindo" | lolcat
-
+echo " [*]Criador:Senhor Loock" | lolcat
 
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
