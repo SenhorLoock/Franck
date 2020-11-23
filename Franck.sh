@@ -60,7 +60,7 @@ figlet -f mono12 "Numero" | lolcat
 echo "Numero Exeplo +55999999999" | lolcat
 read numero
 python phoneinfoga.py -n $numero
-cd
+cd ..
 echo "Precione Enter Para Contina" | lolcat
 read enter
 bash Franck.sh
