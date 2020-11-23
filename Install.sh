@@ -55,7 +55,7 @@ clear
  cd ..
  clear
   figlet -f mono12 "7Etapa" | lolcat
-  git clone https://github.com/xXh4x0rXx/C4MUX
+  git clone https://github.com/xXh4x0rXx/ouija
   
 
 clear
