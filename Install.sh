@@ -48,7 +48,7 @@ pkg install irssi -y
 pkg install nano -y
 
 clear
- figlet -f mono12 "6Etapa"
+ figlet -f mono12 "6Etapa" | lolcat
  git clone https://github.com/xXh4x0rXx/C4NET
  cd C4NET
  bash install.sh
