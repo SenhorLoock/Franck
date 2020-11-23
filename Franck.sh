@@ -15,7 +15,7 @@ echo " [*]Criador:Senhor Loock" | lolcat
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
-echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [00]Exit" | lolcat
+echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [10]Personalizar Termux [00]Exit" | lolcat
 read resultado
 
 if [ "$resultado" = "01" ]
@@ -137,6 +137,26 @@ if [ "$resultado" = "09" ]
      
 fi
 
+if [ "$resultado" = "10" ]
+ then
+  figlet -f mono12 "C4MUX" | lolcat
+   echo " [01] editar bash.bashrc    [02] Instalar bash.bashrc" | lolcat
+    read c4mux
+     if [ "$c4mux" = "01" ]
+      then 
+       cd C4MUX
+        nano bash.basrc
+        
+        fi
+     if [ "$c4mux" = "02" ]
+      then 
+       cd C4MUX
+        bash install.sh
+        cd ..
+         bash Franck.sh
+        fi
+fi        
+        
 if [ "$resultado" = "00" ]
    then
 clear
