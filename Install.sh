@@ -45,13 +45,18 @@ clear
 figlet -f mono12 "5Etapa" | lolcat
 pkg install unstable-repo -y 
 pkg install irssi -y
+pkg install nano -y
 
 clear
  figlet -f mono12 "6Etapa"
- git clone https://githubxXh4x0rXx/C4NET
+ git clone https://github.com/xXh4x0rXx/C4NET
  cd C4NET
  bash install.sh
  cd ..
+ clear
+  figlet -f mono12 "7Etapa" | lolcat
+  git clone https://github.com/xXh4x0rXx/C4MUX
+  
 
 clear
 figlet -f mono12 "Pronto" | lolcat
