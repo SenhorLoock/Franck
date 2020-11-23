@@ -68,10 +68,9 @@ clear
 
 figlet -f mono12 "Fash" | lolcat
 
-echo "Qual Nome Do Arquivo Quer Abrir Senhor Loock?"
+echo "Qual Nome Do Arquivo Quer Abrir?"
 read Nome
 
-cd storage/downloads/Loock/Scripts
 
 nano $nome
 
@@ -83,10 +82,9 @@ clear
 
 figlet -f mono12 "cash" | lolcat
 
-echo "Qual Arquivo Deseja Abrir Senhor Loock ?"
+echo "Qual Arquivo Deseja Abrir?"
 read execute
 
-cd storage/downloads/Loock/Scripts
 
 bash $execute
 
