@@ -158,6 +158,7 @@ if [ "$resultado" = "10" ]
         cd ..
          bash Franck.sh
         fi
+        cd ..
         bash Franck.sh
 fi        
         
