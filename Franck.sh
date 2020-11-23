@@ -32,6 +32,8 @@ if [ "$resultado" = "01" ]
            read PORT
             cd
              ./ngrok $HOST $PORT
+              cd Franck
+              bash Franck.sh
      
 
 fi
@@ -41,6 +43,8 @@ if [ "$resultado" = "02" ]
       echo "Abrindo Ferramenta" | lolcat
        cd SocialSploit
         ./Sploit
+         cd ..
+          bash Franck.sh
 
 fi
 
@@ -51,6 +55,8 @@ cd Auxiliar
 
 bash Auxiliar.sh
 clear
+cd ..
+bash Franck.sh
 fi
 
 
@@ -86,6 +92,7 @@ read Nome
 
 
 nano $nome
+bash Franck.sh
 
 fi
 
@@ -100,6 +107,7 @@ read execute
 
 
 bash $execute
+bash Franck.sh
 
 fi
 
@@ -136,6 +144,7 @@ if [ "$resultado" = "09" ]
       clear
        cd ..
         cd ..
+         bash Franck.sh
      
 fi
 
