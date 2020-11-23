@@ -71,6 +71,8 @@ if [ "$resultado" = "05" ]
     then
 cd webcam
 ./webcam
+cd .. 
+bash Franck.sh
 fi
 
 if [ "$resultado" = "06" ]
@@ -139,6 +141,7 @@ fi
 
 if [ "$resultado" = "10" ]
  then
+ clear
   figlet -f mono12 "C4MUX" | lolcat
    echo " [01] editar bash.bashrc    [02] Instalar bash.bashrc" | lolcat
     read c4mux
@@ -155,6 +158,7 @@ if [ "$resultado" = "10" ]
         cd ..
          bash Franck.sh
         fi
+        bash Franck.sh
 fi        
         
 if [ "$resultado" = "00" ]
