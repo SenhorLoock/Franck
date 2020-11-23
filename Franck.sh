@@ -1,6 +1,6 @@
 
 clear
-
+echo " [*]Criador:Senhor Loock" | lolcat
 figlet -f mono12 "Franck" | lolcat
 date | lolcat
 
@@ -20,6 +20,7 @@ read resultado
 if [ "$resultado" = "01" ]
    then
      clear
+      echo "Para Essa Funçao Funcionar Voce Precisa Configurar o Ngrok"
 
       figlet -f mono12 "Ngrok" | lolcat
        echo "Quel Tipo De Host Deseja Abrir?" | lolcat
