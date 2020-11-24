@@ -87,7 +87,7 @@ clear
 
 figlet -f mono12 "Fash" | lolcat
 
-echo "Qual Nome Do Arquivo Quer Abrir?"
+echo "Qual Nome Do Arquivo Quer Abrir?" | lolcat
 read Nome
 
 
@@ -102,7 +102,7 @@ clear
 
 figlet -f mono12 "cash" | lolcat
 
-echo "Qual Arquivo Deseja Abrir?"
+echo "Qual Arquivo Deseja Abrir?" | lolcat
 read execute
 
 
@@ -141,7 +141,7 @@ if [ "$resultado" = "09" ]
    cd C4NET
     cd script
      python3 client.py
-      echo "Digite Enter Para Continuar"
+      echo "Digite Enter Para Continuar" | lolcat
        read -s Enterl
       clear
        cd ..
