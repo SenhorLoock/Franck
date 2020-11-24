@@ -1,3 +1,8 @@
+clear
+ echo "Instalando as Ferramentas Nesseçaria"
+pkg install figlet -y
+pkg install cowsay -y
+Pkg install lolcat -y
 clear 
 
 figlet -f mono12 "1Etapa" | lolcat
