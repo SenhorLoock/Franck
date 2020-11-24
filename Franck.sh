@@ -24,7 +24,7 @@ if [ "$resultado" = "01" ]
       echo "Para Essa Funçao Funcionar Voce Precisa Configurar o Ngrok"
 
       figlet -f mono12 "Ngrok" | lolcat
-       echo "Quel Tipo De Host Deseja Abrir?" | lolcat
+       echo "Qual Tipo De Host Deseja Abrir?" | lolcat
         read HOST
          clear
          
@@ -40,7 +40,7 @@ fi
 
 if [ "$resultado" = "02" ]
     then
-      echo "Abrindo Ferramenta" | lolcat
+      figlet -f mono12 "Sploit" | lolcat
        cd SocialSploit
         ./Sploit
          cd ..
@@ -175,6 +175,9 @@ fi
         
 if [ "$resultado" = "11" ]
  then
+  figlet -f mono12 "Chat" | lolcat
+   echo "Use [VPN]... Comandos Para Ativa o Chat                             [/connect chat.freenode.net] [/nick *Seu Nome*] [/join #SrLook]               Precione Enter Para Continuar..."
+   read -s enter10
  irssi
 bash Franck.sh
 fi
