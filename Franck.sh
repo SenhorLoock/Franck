@@ -15,7 +15,7 @@ echo " [*]Criador:Senhor Loock" | lolcat
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
-echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [10]Personalizar Termux [00]Exit" | lolcat
+echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [10]Personalizar Termux [11]Chat irssi [00]Exit" | lolcat
 read resultado
 
 if [ "$resultado" = "01" ]
@@ -173,6 +173,12 @@ if [ "$resultado" = "10" ]
         bash Franck.sh
 fi        
         
+if [ "$resultado" = "11" ]
+ then
+ irssi
+bash Franck.sh
+fi
+
 if [ "$resultado" = "00" ]
    then
 clear
