@@ -175,11 +175,12 @@ fi
         
 if [ "$resultado" = "11" ]
  then
-  figlet -f mono12 "Chat" | lolcat
-   echo "Use [VPN]... Comandos Para Ativa o Chat                                    [/connect chat.freenode.net] [/nick *Seu Nome*] [/join #SrLook]                   Precione Enter Para Continuar..."
-   read -s enter10
- irssi
-bash Franck.sh
+  clear
+   figlet -f mono12 "Chat" | lolcat
+    echo "Use [VPN]... Comandos Para Ativa o Chat                                    [/connect chat.freenode.net] [/nick *Seu Nome*] [/join #SrLook]                   Precione Enter Para Continuar..." | lolcat
+     read -s enter10
+      irssi
+       bash Franck.sh
 fi
 
 if [ "$resultado" = "00" ]
