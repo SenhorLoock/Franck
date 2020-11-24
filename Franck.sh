@@ -1,5 +1,5 @@
 
-pkg update && pkg upgrade -y
+pkg update -y && pkg upgrade -y
 
 clear
 echo " [*]Criador:Senhor Loock" | lolcat
@@ -91,7 +91,7 @@ echo "Qual Nome Do Arquivo Quer Abrir?"
 read Nome
 
 
-nano $nome
+nano $Nome
 bash Franck.sh
 
 fi
