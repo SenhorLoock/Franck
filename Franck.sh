@@ -141,6 +141,8 @@ if [ "$resultado" = "09" ]
    cd C4NET
     cd script
      python3 client.py
+      echo "Digite Enter Para Continuar"
+       read -s Enterl
       clear
        cd ..
         cd ..
