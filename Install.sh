@@ -2,7 +2,8 @@ clear
  echo "Instalando as Ferramentas Nesseçaria"
 pkg install figlet -y
 pkg install cowsay -y
-Pkg install lolcat -y
+pkg install rubby -y
+gem install lolcat -y
 
 clear 
 
