@@ -1,8 +1,11 @@
+#!/bin/bash
 
-pkg update -y && pkg upgrade -y
+
+
 
 clear
 echo " [*]Criador:Senhor Loock" | lolcat
+printf '\033[7;32mGITHUB\033[m:\033[1;32mgithub.com/SenhorLoock'
 figlet -f mono12 "Franck" | lolcat
 date | lolcat
 
@@ -11,7 +14,7 @@ echo "Ola Sou o Franck Fui Criado Para Ajuda a Obter Experiencia                
      clear
 
 echo " [*]Criador:Senhor Loock" | lolcat
-
+printf '\033[7;32mGITHUB\033[m:\033[1;32mgithub.com/SenhorLoock'
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
