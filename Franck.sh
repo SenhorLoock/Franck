@@ -18,7 +18,7 @@ printf '\033[7;32mGITHUB\033[m:\033[1;32mgithub.com/SenhorLoock'
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
-echo "[01]Salas Ngrok [02]Abrir SocialSploit [03]Abrir Auxiliar-msf              [04]Abrir PhoneInfoga [05]Abrir Webcam  [06]Criar Script                   [07]Execulta Script Criado [08]Git Clone [09]Abrir C4NET                   [10]Personalizar Termux [11]Chat irssi [00]Exit" | lolcat
+printf "[01]Salas Ngrok\n[02]Abrir SocialSploit\n[03]Abrir Auxiliar-msf\n[04]Abrir PhoneInfoga\n[05]Abrir Webcam\n[06]Criar Script\n[07]Execulta Script Criado\n[08]Git Clone\n[09]Abrir C4NET\n[10]Personalizar Termux\n[11]Chat irssi\n[00]Exit" | lolcat
 read resultado
 
 if [ "$resultado" = "01" ]
@@ -43,6 +43,7 @@ fi
 
 if [ "$resultado" = "02" ]
     then
+    clear
       figlet -f mono12 "Sploit" | lolcat
        cd SocialSploit
         ./Sploit
@@ -53,7 +54,7 @@ fi
 
 if [ "$resultado" = "03" ]
     then
-
+clear
 cd Auxiliar
 
 bash Auxiliar.sh
@@ -65,6 +66,7 @@ fi
 
 if [ "$resultado" = "04" ]
   then
+  clear
 cd Phoneinfoga
 figlet -f mono12 "Numero" | lolcat
 echo "Numero Exeplo +55999999999" | lolcat
