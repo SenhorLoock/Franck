@@ -7,7 +7,7 @@ gem install lolcat -y
 
 clear 
 
-figlet -f mono12 "1Etapa" | lolcat
+figlet -s slant "1Etapa" | lolcat
 
 git clone https://github.com/shoowl/Auxiliar
 echo "Precione Enter Para Continua" | lolcat
@@ -17,7 +17,7 @@ bash install.sh
 cd ..
 
 clear
-figlet -f mono12 "2Etapa" | lolcat
+figlet -s slant "2Etapa" | lolcat
 
 git clone https://github.com/la-deep-web/Phoneinfoga
 cd Phoneinfoga
@@ -29,7 +29,7 @@ read-s Enter2
 
 
 clear
-figlet -f mono12 "3Etapa" | lolcat
+figlet -s slant "3Etapa" | lolcat
 git clone https://github.com/Cesar-Hack-Gray/SocialSploit
 echo " Precione Enter Para Continuar" | lolcat
 read -s Enter3
@@ -39,7 +39,7 @@ bash install.sh
 cd ..
 
 clear
-figlet -f mono12 "4Etapa" | lolcat
+figlet -s slant "4Etapa" | lolcat
 git clone https://github.com/Cesar-Hack-Gray/webcam
 cd webcam
 chmod +x *
@@ -49,24 +49,24 @@ cd ..
 echo "Precione Enter Para Continuar" | lolcat
 read -s Enter4
 clear
-figlet -f mono12 "5Etapa" | lolcat
+figlet -s slant "5Etapa" | lolcat
 pkg install unstable-repo -y 
 pkg install irssi -y
 pkg install nano -y
 
 clear
- figlet -f mono12 "6Etapa" | lolcat
+ figlet -s slant "6Etapa" | lolcat
  git clone https://github.com/xXh4x0rXx/C4NET
  cd C4NET
  bash install.sh
  cd ..
  clear
-  figlet -f mono12 "7Etapa" | lolcat
+  figlet -s slant "7Etapa" | lolcat
   git clone https://github.com/xXh4x0rXx/ouija
   
 
 clear
-figlet -f mono12 "Pronto" | lolcat
+figlet -s slant "Pronto" | lolcat
 echo " Precione enter Para Concluir "
 read -s enter
 
