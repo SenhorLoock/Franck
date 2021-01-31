@@ -18,7 +18,7 @@ printf '\033[7;32mGITHUB\033[m:\033[1;32mgithub.com/SenhorLoock'
 cowsay -f dragon "Franck" | lolcat
 date | lolcat
 
-printf "[01]Salas Ngrok\n[02]Abrir SocialSploit\n[03]Abrir Auxiliar-msf\n[04]Abrir PhoneInfoga\n[05]Abrir Webcam\n[06]Criar Script\n[07]Execulta Script Criado\n[08]Git Clone\n[09]Abrir C4NET\n[10]Personalizar Termux\n[11]Chat irssi\n[00]Exit" | lolcat
+printf "[01]Salas Ngrok\n[02]Abrir SocialSploit\n[03]Abrir Auxiliar-msf\n[04]Abrir PhoneInfoga\n[05]Abrir Webcam\n[06]Criar Script\n[07]Execulta Script Criado\n[08]Git Clone\n[09]Abrir C4NET\n[10]Personalizar Termux\n[11]Chat irssi\n[00]Exit\nFranck :" | lolcat
 read resultado
 
 if [ "$resultado" = "01" ]
